@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- COMMENT OUT LINES WITH BORDER ATTRIBUTES BEFORE GOING LIVE. These put colored borders
+around every object. This makes it MUCH easier to
+find the boundaries of elements and troubleshoot the page. -->
+
+<style>
+body {
+        background-image: url("https://lh3.googleusercontent.com/3IKqjCsOG_a31ErnbztcN1qoyKWeMn68mq9Obn95huhPBBLNGfZujt291SeEGj40dA_8mLXjOKNDlRczPPD-lZhlL3MItbLk7RC482Ub0HwL13ZlDV1wdrEpke7WoEirz1BTTEeMJaJfU3SJm6FaWk6GBTVNjaDnhEh6pfmg0MaFzysZoCR6Pjh2K5cizhGGwiBfZEFjVVLmjz9D7fzqvlKYE2F0qRohvQHTNzbdeEvkD53A8H0W4BxNUyOh5ozf7BY8YxpMmFJeQrHiP2TCltE74nf95nOjpbH8rugDupCawfG81kz5CZm6FX4WZks0nJb6GRnbe6FayNL-fEvEQAVCT51pO3wVX8yhqnXZw1o1U3liQUYu4Pp0YlmPNkGS-ePe-gwYZndlh-7kvARJHLnPCvQAHOu8ihkYhf03xWiM9wYg-FfBrGzOz1lGMBDKu6-GRLSgRZroYeMpsPaquvK59p9VAb7fZq-g4Z-F862WxM-utPSZE9Gdv1Cv5VTHIvGDTkRWzA4a7mqlRg8uyWj_qdGchMG4QMrlUghnreGTe9sZJ14_RryZoOvJeskWzcsNSPcn2s4YQzeMTLaT83_SITcD-kWcvpdAQvuLTBPZx1LCeLrz-vUQddZqtJs9U4IzxBwHd5JxNTAbeGuq7Kt6N2y0twf_Ooy7IeiF0vrbVCP_F7DLTg=w1022-h576-no");
+         }
+/* * {
+   border: 1px solid red;
+  }
+
+body {
+    border: 2px solid yellow;
+  }
+
+  .main-area {
+    border: 2px solid blue;
+  } */
+
+  }
+</style>
+
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Malachi's Example Website</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+  <nav class="green darken-4" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Green Thumb Lawn Service</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="..\index.html">Home</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+
+      <div class="contact-container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="https://lh3.googleusercontent.com/88_YAK9fREECRAW28IQP4prHzF22-e3xQa_IbqJtBB1zocImj_phyA981DX8vy-Fe3YkMbdXeU_iwkzU3dozQUqbzkX_ihUc5IRFX5GOCX__cYQEFdmwmE8UWbVtRsjC0RhZ74iuLrX86CSUXQURwE3DEUFsJGpsTPjGrxHnTcYOkYKWc5pxkDVql3pWoWt8kzdEVIG5KiepoJlDWyuCQkTozdAH8VJ4lfC6PaLns3bfHA6210RchX1ddFf6JHGyAIVHzWd4si4nq0uWoR0lVRyrusysdnqyHK8DEzU9vgY5wR7BPQyvm1HBo9-zZO_V8IfaEIWK5qD9MsElRvW1sPXIK9okpBlAxeU1ZH4v9vzIh6NWTmnSYm2Eu1Dq88s5Y2dtYHePljUyEg3SjRt_7XAwevm_xLN8aqrtEgquI6EMo2Pmxw-wocLDNK8W7zzWGTkc7oTQHc4C8vA6uJZgg5Di33SJxQVCYVfG7hi6kUBGXd71bz5dED3RPjPYyDuKsN5u92IXsSB6jevKriUAkp1qYuZ0nvJlXYBJCyO0NPjM6AgfUPssBpdm2FvfO9xCT_z5zOo6-_l3GfSZcQsTVu__Cqb-Xst5Y4K7dX2u3WCDMPavmE2hcZgJz2cezkhvAneB8geAiIVxWmqia1EegjE0EZoiQTTWQkZjIAfc_3VC5m8LLYcvmg=w378-h566-no" style="width:100%">
+    </div>
+    <div class="column" id="Contact Form">
+      <form action="/action_page.php">
+        <label class="black-text" for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label class="black-text" for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label class="black-text" for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section"
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

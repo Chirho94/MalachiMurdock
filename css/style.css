@@ -1,0 +1,23 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+body {
+background-image: url("https://lh3.googleusercontent.com/3IKqjCsOG_a31ErnbztcN1qoyKWeMn68mq9Obn95huhPBBLNGfZujt291SeEGj40dA_8mLXjOKNDlRczPPD-lZhlL3MItbLk7RC482Ub0HwL13ZlDV1wdrEpke7WoEirz1BTTEeMJaJfU3SJm6FaWk6GBTVNjaDnhEh6pfmg0MaFzysZoCR6Pjh2K5cizhGGwiBfZEFjVVLmjz9D7fzqvlKYE2F0qRohvQHTNzbdeEvkD53A8H0W4BxNUyOh5ozf7BY8YxpMmFJeQrHiP2TCltE74nf95nOjpbH8rugDupCawfG81kz5CZm6FX4WZks0nJb6GRnbe6FayNL-fEvEQAVCT51pO3wVX8yhqnXZw1o1U3liQUYu4Pp0YlmPNkGS-ePe-gwYZndlh-7kvARJHLnPCvQAHOu8ihkYhf03xWiM9wYg-FfBrGzOz1lGMBDKu6-GRLSgRZroYeMpsPaquvK59p9VAb7fZq-g4Z-F862WxM-utPSZE9Gdv1Cv5VTHIvGDTkRWzA4a7mqlRg8uyWj_qdGchMG4QMrlUghnreGTe9sZJ14_RryZoOvJeskWzcsNSPcn2s4YQzeMTLaT83_SITcD-kWcvpdAQvuLTBPZx1LCeLrz-vUQddZqtJs9U4IzxBwHd5JxNTAbeGuq7Kt6N2y0twf_Ooy7IeiF0vrbVCP_F7DLTg=w1022-h576-no");
+min-height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;}
+}
+/*Resize with vp to avoid text stacking*/
